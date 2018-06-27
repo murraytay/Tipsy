@@ -15,6 +15,7 @@
 		A89260D220E2D67D0017D56B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A89260D120E2D67D0017D56B /* main.m */; };
 		A89260DC20E2D67D0017D56B /* tipsyTests.m in Sources */ = {isa = PBXBuildFile; fileRef = A89260DB20E2D67D0017D56B /* tipsyTests.m */; };
 		A89260E720E2D67D0017D56B /* tipsyUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = A89260E620E2D67D0017D56B /* tipsyUITests.m */; };
+		A89260F620E2EB550017D56B /* SettingsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A89260F520E2EB550017D56B /* SettingsViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		A89260E220E2D67D0017D56B /* tipsyUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = tipsyUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A89260E620E2D67D0017D56B /* tipsyUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = tipsyUITests.m; sourceTree = "<group>"; };
 		A89260E820E2D67D0017D56B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A89260F420E2EB550017D56B /* SettingsViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SettingsViewController.h; sourceTree = "<group>"; };
+		A89260F520E2EB550017D56B /* SettingsViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SettingsViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -106,6 +109,8 @@
 				A89260C520E2D67B0017D56B /* ViewController.h */,
 				A89260C620E2D67B0017D56B /* ViewController.m */,
 				A89260C820E2D67B0017D56B /* Main.storyboard */,
+				A89260F420E2EB550017D56B /* SettingsViewController.h */,
+				A89260F520E2EB550017D56B /* SettingsViewController.m */,
 				A89260CB20E2D67D0017D56B /* Assets.xcassets */,
 				A89260CD20E2D67D0017D56B /* LaunchScreen.storyboard */,
 				A89260D020E2D67D0017D56B /* Info.plist */,
@@ -265,6 +270,7 @@
 				A89260C720E2D67B0017D56B /* ViewController.m in Sources */,
 				A89260D220E2D67D0017D56B /* main.m in Sources */,
 				A89260C420E2D67B0017D56B /* AppDelegate.m in Sources */,
+				A89260F620E2EB550017D56B /* SettingsViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -434,6 +440,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BPY3ZP4FA;
 				INFOPLIST_FILE = tipsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -450,6 +457,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7BPY3ZP4FA;
 				INFOPLIST_FILE = tipsy/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
