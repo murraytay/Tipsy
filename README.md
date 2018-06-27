@@ -26,6 +26,8 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+<img src='https://i.imgur.com/1R4bAxA.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+
 
 https://github.com/murraytay/Tipsy/blob/master/tipsy_demo1.gif
 
